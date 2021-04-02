@@ -1,0 +1,31 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("get-ur-wish.jpg");
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  animation: animation 100s linear infinite;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 5em 5em;
+}
+
+@keyframes animation {
+  100% {
+    background-position: -3000px -3000px;
+  }
+}
+
+#text {
+  background-color: rgba(0, 0, 0, 0.719);
+  color: whitesmoke;
+  margin: auto;
+  max-width: 50em;
+  padding: 1em;
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+}
