@@ -22,10 +22,15 @@ body {
 
 #text {
   background-color: rgba(0, 0, 0, 0.719);
-  color: whitesmoke;
+  color: rgb(245, 245, 245);
   margin: auto;
   max-width: 50em;
   padding: 1em;
   backdrop-filter: blur(20px);
   border-radius: 20px;
+}
+
+:target,
+h1:hover {
+  color: rgb(175, 182, 255);
 }
